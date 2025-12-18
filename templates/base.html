@@ -1,0 +1,30 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: true
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>{{ content.html_title }}</title>
+  <meta name="description" content="{{ content.meta_description }}">
+
+  {{ standard_header_includes }}
+
+  <!-- Main global styles -->
+  <link rel="stylesheet" href="{{ get_asset_url('/themeProject/css/main.css') }}">
+</head>
+
+<body>
+
+  {% block body %}
+  {% endblock %}
+
+  {{ standard_footer_includes }}
+
+  <!-- Main global JS -->
+  <script src="{{ get_asset_url('/themeProject/js/main.js') }}"></script>
+
+</body>
+</html>

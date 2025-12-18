@@ -1,0 +1,12 @@
+{
+  "label": "Team Portfolio Theme",
+  "preview_path": "/themeProject/templates/home.html",
+  "screenshot_path": "./images/theme-preview.png",
+  "enable_domain_stylesheets": true,
+  "is_available_for_new_content": true,
+  "author": {
+    "name": "Mahmoud Ashraf",
+    "email": "mahmoud.ashraf@email.com"
+  },
+  "hide_all_default_modules": false
+}

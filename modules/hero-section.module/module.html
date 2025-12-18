@@ -1,0 +1,36 @@
+<section class="hero-section" id="hero">
+  <div class="hero-bg"></div>
+
+  <div class="container">
+    <div class="hero-inner">
+
+      <span class="hero-eyebrow">
+        {{ module.eyebrow|default('Personal Portfolio') }}
+      </span>
+
+      <h1 class="hero-title">
+        {{ module.person_name|default('Mahmoud Ashraf') }}
+      </h1>
+
+      <h2 class="hero-subtitle">
+        {{ module.occupation|default('Flutter Developer') }}
+      </h2>
+
+      <div class="hero-description">
+        {{ module.description|default(
+          'I design and build high-quality mobile experiences with a strong focus on performance, scalability, and user experience.'
+        ) }}
+      </div>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn btn-primary">View Work</a>
+        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      </div>
+
+      <div class="hero-scroll">
+        <span></span>
+      </div>
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,101 @@
+.contact-cta {
+  position: relative;
+  padding: 140px 0;
+  color: #ffffff;
+  background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+  overflow: hidden;
+}
+
+/* Ambient glow layer */
+.contact-cta .cta-bg {
+  position: absolute;
+  inset: -20%;
+  background:
+    radial-gradient(circle at 30% 20%, rgba(59,130,246,0.25), transparent 40%),
+    radial-gradient(circle at 70% 80%, rgba(99,102,241,0.18), transparent 45%);
+  filter: blur(80px);
+  z-index: 0;
+}
+
+/* Content */
+.contact-cta .cta-inner {
+  max-width: 720px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+}
+
+/* Eyebrow */
+.contact-cta .cta-eyebrow {
+  display: inline-block;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+
+/* Title */
+.contact-cta .cta-title {
+  font-size: clamp(2.3rem, 4.5vw, 3rem);
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  margin-bottom: 1.5rem;
+}
+
+/* Description */
+.contact-cta .cta-description {
+  font-size: 1.05rem;
+  line-height: 1.75;
+  color: rgba(255,255,255,0.85);
+  margin-bottom: 3rem;
+}
+
+/* Actions */
+.contact-cta .cta-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.4rem;
+}
+
+/* Form */
+.contact-cta .cta-form {
+  width: 100%;
+  max-width: 420px;
+}
+
+/* Button */
+.contact-cta .cta-button {
+  padding: 1rem 2.8rem;
+  font-size: 1.05rem;
+  box-shadow:
+    0 0 0 0 rgba(59,130,246,0.6),
+    0 18px 40px rgba(0,0,0,0.45);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-cta .cta-button:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 0 0 10px rgba(59,130,246,0.12),
+    0 28px 60px rgba(0,0,0,0.55);
+}
+
+/* Secondary reassurance */
+.contact-cta .cta-secondary {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.6);
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .contact-cta {
+    padding: 100px 0;
+  }
+
+  .contact-cta .cta-description {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+[ {
+  "id" : "d391c075-4d4e-f702-afe5-75362d0a64b4",
+  "name" : "person_name",
+  "label" : "person name",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "Name",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Mahmoud Ashraf"
+}, {
+  "id" : "61bd328d-1a35-c6bc-6b33-408c0af2364f",
+  "name" : "occupation",
+  "label" : "occupation",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "Work",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Flutter"
+} ]

@@ -1,0 +1,30 @@
+[ {
+  "id" : "5953bc93-f663-3a89-345d-a2d32448ae47",
+  "name" : "member_1_name",
+  "label" : "Member 1 Name",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "Mahmoud Ashraf",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Mahmoud Ashraf"
+}, {
+  "id" : "e12e1083-8147-c38b-9b95-aa5ad460936b",
+  "name" : "member_2_name",
+  "label" : "Member 2 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+}, {
+  "id" : "290d0e4d-de2f-c30b-5dcd-c5ef2a0a220f",
+  "name" : "member_3_name",
+  "label" : "Member 3 Name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null
+} ]

@@ -1,0 +1,38 @@
+<!--
+  templateType: "page"
+  isAvailableForNewContent: true
+-->
+
+{% extends "/themeProject/templates/base.html" %}
+
+{% block body %}
+
+  {# ================= HERO SECTION ================= #}
+  {% module
+    "hero_section"
+    path="/themeProject/modules/hero-section.module",
+    label="Hero Section"
+  %}
+
+  {# ================= PROJECTS ================= #}
+  {% module
+    "projects"
+    path="/themeProject/modules/project-overview.module",
+    label="Projects Overview"
+  %}
+
+  {# ================= TEAM MEMBERS ================= #}
+  {% module
+    "team"
+    path="/themeProject/modules/team-members.module",
+    label="Team Members"
+  %}
+
+  {# ================= CONTACT CTA ================= #}
+  {% module
+    "contact_cta"
+    path="/themeProject/modules/contact-cta.module",
+    label="Contact CTA"
+  %}
+
+{% endblock %}

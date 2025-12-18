@@ -1,0 +1,12 @@
+[ {
+  "id" : "983169ad-f3a7-7bcd-6627-efb261485006",
+  "name" : "project_description",
+  "label" : "project description",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "add project description",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "A collection of projects that demonstrate my technical skills and design thinking."
+} ]

@@ -1,0 +1,56 @@
+<section
+  class="contact-cta"
+  id="contact"
+  style="--bg-start: {{ module.background_color|default('#020617') }};
+         --bg-end: {{ module.background_secondary|default('#0f172a') }};"
+>
+  <div class="cta-bg"></div>
+
+  <div class="container">
+    <div class="cta-inner">
+
+      <!-- Eyebrow -->
+      <span class="cta-eyebrow">
+        {{ module.eyebrew|default('Let’s build something meaningful') }}
+      </span>
+
+      <!-- Title -->
+      <h2 class="cta-title">
+        {{ module.cta_title|default('Have a project in mind?') }}
+      </h2>
+
+      <!-- Description -->
+      <div class="cta-description">
+        {{ module.cta_description|default(
+          'I help teams and individuals turn ideas into high-quality digital products. Let’s talk about how I can help you.'
+        ) }}
+      </div>
+
+      <!-- Actions -->
+      <div class="cta-actions">
+
+        {% if module.show_form and module.form_id %}
+          <div class="cta-form">
+            <div class="hubspot-form" data-form-id="{{ module.form_id }}"></div>
+          </div>
+        {% endif %}
+
+        {% if module.button_text %}
+          <a
+            href="{{ module.button_link|default('mailto:your@email.com') }}"
+            class="btn btn-primary cta-button"
+          >
+            {{ module.button_text }}
+          </a>
+        {% endif %}
+
+        {% if module.secondary_text %}
+          <span class="cta-secondary">
+            {{ module.secondary_text|default('Or just send a quick email — no pressure.') }}
+          </span>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+</section>

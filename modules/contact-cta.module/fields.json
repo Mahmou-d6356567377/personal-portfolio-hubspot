@@ -1,0 +1,47 @@
+[ {
+  "id" : "cbc7af6c-767c-f841-1e22-85263ce9cf33",
+  "name" : "style",
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : { }
+}, {
+  "id" : "71fd138f-0ceb-9d85-21bd-e51e879e2e8e",
+  "name" : "eyebrew",
+  "label" : "eyebrew",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "change eyebrew content",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Let’s build something meaningful"
+}, {
+  "id" : "6cbbd4c6-4576-b305-5d2d-d37cfc509f1b",
+  "name" : "cta_title",
+  "label" : "cta title",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "cta title",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Have a project in mind?"
+}, {
+  "id" : "d924a11e-d78b-fe96-895d-b9a9d406d55b",
+  "name" : "cta_description",
+  "label" : "cta description",
+  "required" : false,
+  "locked" : false,
+  "placeholder" : "descriptino",
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "I help teams and individuals turn ideas into high-quality digital products. Let’s talk about how I can help you."
+} ]
