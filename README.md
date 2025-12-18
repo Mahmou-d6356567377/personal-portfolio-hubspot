@@ -1,4 +1,4 @@
-HubSpot Personal Portfolio Project 🚀
+#HubSpot Personal Portfolio Project 🚀
 
 A high-performance, developer-centric personal portfolio built entirely on the HubSpot CMS. This project showcases modern web development practices integrated with HubSpot's powerful CRM and marketing tools.
 
@@ -59,3 +59,4 @@ Run hs upload src/ <folder_name> to deploy.
 📄 License
 
 This project is part of the HubSpot CMS Certification Project 2024.
+
